@@ -1,59 +1,114 @@
-body{
-    background-color: white;
+body {
     margin: 0;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
-a{
-    text-decoration: none;
-}
+
 .banner{
-    background: url(../imagens/juliana.png) center no-repeat;
-    height: 85vh;
+    background: url(../imagens/juliana.png) center no-repeat;    
+    height: 90vh;
     text-align: center;
     padding-top: 10rem;
-    background-size: cover;
+    background-size: cover;    
 }
+
 .banner-titulo{
     font-size: 5rem;
     width: 100%;
-    color: rgb(244, 253, 247);
+    color: white;
 }
+
 .banner-subtitulo{
     font-size: 2.3rem;
-    color:white;
+    color: white;
 }
+
 .btn{
     border-radius: 3rem;
     text-transform: uppercase;
     padding: 1rem 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
-.btn-branco {
-    color: black;
+
+.btn-branco{
+    color: #2a6639;
     background-color: white;
 }
-.btn-verde{
-    color: black;
-    background-color: rgb(52, 95, 52);
-    border: 1px solid;
+
+a {
+    text-decoration: none;
 }
+
 .sobre-titulo{
     font-size: 4rem;
-    color:  rgb(52, 95, 52);
+    color: #2a6639;
 }
+
+.sobre-descricao, .sobre-habilidades{
+    width: 40%;
+    display: inline-block;
+    list-style: 1.5;
+}
+
 .sobre-descricao-destaque, .sobre-descricao-texto, .sobre-habilidades-titulo{
     font-size: 2rem;
+    color: black;
 }
 
 .u-margin-bottom-peq{
     margin-bottom: 2rem;
 }
+
+.btn-roxo{
+    color: #2a6639;
+    border: 1px solid #2a6639;
+}
+
 .sobre-habilidades-lista{
     padding-left: 2rem;
     line-height: 2;
     font-size: 1.6rem;
 }
-.btn-roxo{
-    color:  rgb(52, 95, 52;
-    border: 1px solid  rgb(52, 95, 52;
+
+html{
+    font-size: 10px;  /* faz o reset do rem */
 }
 
+h3{
+    font-size: 2.5rem;
+    color: white;
+}
+
+p{
+    font-size: 1.6rem;
+    color: white;
+}
+
+.container{
+   max-width: 1080px;
+   margin: 0 auto;
+   margin-top: 10rem;
+}
+
+.sobre-padding-left{
+    padding-left: 10rem;
+}
+.footer{
+    text-align: center;
+}
+.redes-sociais{
+    display: inline-block;
+    justify-content: space-between;
+    width: 20%;
+    background-color: #2a6639;
+    padding: 2rem 0;
+    margin: 0 1rem;
+    color: white;
+}
+.footer-display {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-copy-texto{
+    color: black;
+}
