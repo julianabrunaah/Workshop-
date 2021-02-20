@@ -1,0 +1,59 @@
+body{
+    background-color: white;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.banner{
+    background: url(../imagens/juliana.png) center no-repeat;
+    height: 85vh;
+    text-align: center;
+    padding-top: 10rem;
+    background-size: cover;
+}
+.banner-titulo{
+    font-size: 5rem;
+    width: 100%;
+    color: rgb(244, 253, 247);
+}
+.banner-subtitulo{
+    font-size: 2.3rem;
+    color:white;
+}
+.btn{
+    border-radius: 3rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-weight: bold;
+}
+.btn-branco {
+    color: black;
+    background-color: white;
+}
+.btn-verde{
+    color: black;
+    background-color: rgb(52, 95, 52);
+    border: 1px solid;
+}
+.sobre-titulo{
+    font-size: 4rem;
+    color:  rgb(52, 95, 52);
+}
+.sobre-descricao-destaque, .sobre-descricao-texto, .sobre-habilidades-titulo{
+    font-size: 2rem;
+}
+
+.u-margin-bottom-peq{
+    margin-bottom: 2rem;
+}
+.sobre-habilidades-lista{
+    padding-left: 2rem;
+    line-height: 2;
+    font-size: 1.6rem;
+}
+.btn-roxo{
+    color:  rgb(52, 95, 52;
+    border: 1px solid  rgb(52, 95, 52;
+}
+
